@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descrizione pagina" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+</head>
+<body>
+    <!-- Intestazione -->
+    <header>
+        <div>
+            <figure>
+                <img src="assets/img/logo.svg">
+                <figcaption><h1>Epicode - Il blog dei developers</h1></figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <!-- Navigazione -->
+    <nav>
+        <div>
+            <ul>
+                <li><a href="https://home.it" title="Home" target="_blank">Home</a></li>
+                <li><a href="https://Articoli.it" title="Articoli" target="_blank">Articoli</a></li>
+                <li><a href="https://job.it" title="Job" target="_blank">Job</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenuto principale -->
+    <main>
+        <div>
+            <p><h2>Come creare un template per i post di Mario Rossi - pubblicato il 25-10-2020</h2></p>
+            <p>
+                La <ins>prima</ins> cosa da fare è <b>suddividere in blocchi logici la pagina</b>, identificando le parti comuni da applicare a tutte le pagine.<br> 
+                Le varie aree saranno quindi suddivise in:<br>                
+                <ul>
+                    <li>Contenuti di intestazione del tag <mark>&#60header&#62</mark> ; </li>
+                    <li>Contenuti centrali variabili del tag <mark>&#60main&#62</mark> (corpo principale);</li>
+                    <li>Contenuti di fine pagina comuni, da inserire nel tag <mark>&#60footer&#62</mark>.</li>
+                </ul>
+                <h3>Formattazione del codice</h3>
+                
+                Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i <strong>CSS</strong>.<br> 
+                Perciò i passi saranno:
+                <ol>
+                    <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato;</li>
+                    <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso;</li>
+                    <li>Applicare gli stili CSS;</li>
+                    <li>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</li>
+                </ol>
+            </p>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3"> Diffusione dei CSS</th>
+                    </tr>
+                    <tr>
+                        <th>Anno</th>
+                        <th>&#37 di utilizzo</th>
+                        <th>Supporto del Browser</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>20&#37</td>
+                        <td>17&#37</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35&#37</td>
+                        <td>22&#37</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45&#37</td>
+                        <td>42&#37</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80&#37</td>
+                        <td>51&#37</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100&#37</td>
+                        <td>76&#37</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <p>Un test di validazione potrà essere fatto tramite il  <a href="https://validator.w3.org/" title="Validatore W3" target="_blank">tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come loro:<br><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_RiQ8Csw0V0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </p>
+        </div>
+        <div>
+            <p><strong><i>Vuoi rimanere aggiornato su altre novità del blog?</i></strong><br>Iscriviti alla nostra newsletter:</p>
+            <form method="post" action="dati.php" autocomplete="on">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" placeholder="Inserire qui la tua email..." requested>
+                <button type="submit" id="iscriviti">Iscriviti</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Contenuto secondario -->
+    <aside>
+        <div>
+            <dl>
+                <dt><a href="https://www.validareilcodicehtml.it" title="validare il codice html" target="_blank">Validare il codice HTML</a></dt>
+                <dd><b>Categoria</b>: develop</dd>
+                <dd><b>Data</b>: 18-9-2020</dd>
+            </dl>
+        </div>
+
+        <div>
+            <dl>
+                <dt><a href="https://www.correggerelasintassi.it" title="correggere la sintassi" target="_blank">Correggere la sintassi</a></dt>
+                <dd><b>Categoria</b>: develop</dd>
+                <dd><b>Data</b>: 16-9-2020</dd>
+            </dl>
+        </div>
+
+        <div>
+            <dl>
+                <dt><a href="https://www.menokbnellapagina.it" title="meno kb nella pagina" target="_blank">Meno Kb nella pagina</a></dt>
+                <dd><b>Categoria</b>: ottimizzazione</dd>
+                <dd><b>Data</b>: 30-9-2020</dd>
+            </dl>
+        </div>
+    </aside>
+
+    <!-- Pie di pagina -->
+    <footer>
+            <div>
+                <p><h5>Testata online di Mario Rossi</h5></p>
+                <small>registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="mailto:info@epicode.com">Epicode</a></small>
+                <p><h6>Blog Epicode &#169 2021</h6></p>
+            </div>
+    </footer>
+</body>
+</html>

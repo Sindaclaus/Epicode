@@ -1,0 +1,271 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("../img/sfondo.png"); /*da SISTEMARE ANGOLI*/
+    line-height: 25px;
+}
+
+/* HEADER */
+header {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 2px  black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(1,166,201,255), rgba(4,106,136,255));
+    margin: 15px;
+    padding: 20px;
+}
+
+header img {
+    zoom: 100%;
+}
+
+header p {
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: 500;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+/* MAIN */
+main{
+    font-family: 'Poppins', sans-serif;
+}
+
+main, aside, footer {
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 2px 2px, -2px 0px 0px  lightgrey;
+    margin: 15px;
+    padding: 15px;
+}
+
+hr {
+    visibility: hidden;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+h1 {
+    font-weight: 500;
+    font-size: xx-large;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+h1 + p {
+    margin-bottom: 20px;
+    font-size: normal;
+    font-weight: 300;
+    color: grey;
+}
+
+p {
+    font-weight: 300;
+    font-size: normal;
+    letter-spacing: 0.2px;
+}
+
+strong {
+    color:rgba(170,32,114,255);
+    font-weight: 500;
+}
+
+p + p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+code {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: rgba(230,221,223,255);
+}
+
+ul li:last-child {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+h2 + p {
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-left: 40px;
+    font-weight: 300;
+}
+
+ol li:last-child {
+    margin-bottom: 20px;
+}
+
+/* TABELLE */
+caption {
+    font-style: italic;
+}
+
+thead th {
+    color: white;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border: 0px;
+    background-color: rgba(60,108,205,255);
+    width: 33vw;
+    vertical-align:middle;
+}
+tbody tr {
+    border-collapse:collapse;
+    border: 0px;
+    font-weight: 300;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(242,242,243,255);
+}
+
+tbody {
+    border-bottom: 2px solid rgba(60,108,205,255);
+}
+
+table + p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p a {
+    color: rgba(20,160,200,255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+iframe {
+    border-collapse: collapse;
+    width: 85vw;
+    border-radius: 40px;
+}
+
+/* FORM */
+section {
+    border-collapse: collapse;
+    border: 0px solid; 
+    background-color: rgba(223,231,232,255);
+    padding: 20px;
+    margin-top: 20px;
+    width: 350px;
+}
+
+section h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: x-large;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: rgba(51,102,204,255);
+    color: white;
+    font-size:large;
+    letter-spacing: 1px;
+    line-height: 25px;
+    border-color: rgba(51,102,204,255);
+}
+
+input {
+    border-collapse: collapse;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px;
+    color: lightgrey;
+    border-style: dashed;
+    line-height: 30px;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside {
+    border-collapse: collapse;
+    border-color: white;
+    box-shadow: none;
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+h2 + div {
+    padding: 10px;
+    width:auto;
+    border-collapse: separate;
+    border: 1px solid rgba(205,205,206,255);
+    background-color: rgba(222,225,226,255);
+    margin-top: 20px;
+}
+
+div + div{
+    padding: 10px;
+    width:auto;
+    border-collapse: separate;
+    border: 1px solid rgba(205,205,206,255);
+    background-color: rgba(222,225,226,255);
+    margin-top: 20px;
+}
+
+div > a {
+    font-weight: 500;
+    color: rgba(0,159,204,255);
+}
+
+aside p ~ p {
+    text-align: right;
+}
+
+/* FOOTER */
+footer {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-color: rgba(0,85,102,255);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 1px 3px, -1px 0px 3px  black;
+    background-image: linear-gradient(to bottom, rgba(0,85,102,255), rgba(59,63,54,255));
+    color: white;
+    font-size: normal;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;   
+}
+
+p + address {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+footer a {
+    color: rgba(241,6,253,255);
+}

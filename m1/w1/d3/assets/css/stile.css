@@ -1,0 +1,53 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: rgba(0,160,198,255);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* HEADER */
+header {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: whitesmoke;
+    margin-top: 30px;
+    line-height: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    line-height: 60px;
+    font-size: normal;
+    font-variant-caps: small-caps;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+span {
+    background-color: whitesmoke;
+    color: rgba(0,160,198,255);
+    display: inline-block;
+}
+
+/* HORIZONTAL LINE */
+hr {
+    height: 5px;
+    background-color: rgba(2,119,148,255);
+    border: none;
+}
+
+/* MAIN */
+main {
+    background-color: whitesmoke;
+}
+/* ELEMENTI NEL MAIN */
+
+/* FOOTER */
